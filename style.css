@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    align-items: center;
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+body, .section-1, .section-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 7px 24px;
+    border-radius: 8px;
+    border: none;
+}
+
+.section-1 {
+    padding: 0px 12.5%;
+    background-color: #1F2937;
+    height: 550px;
+    width: 75%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 12px;
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+
+.section-1-content {
+    display: flex;
+    margin-top: 72px;
+    gap: 48px;
+}
+
+.section-1-content-left {
+    width: 50%;
+}
+
+.section-1 h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+.section-1 p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section-1 button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.section-1-content-right {
+    width: 50%;
+    background-color: #636363;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1-content-right {
+    color: #E5E7EB;
+}
+
+.section-2 {
+    height: 550px;
+    width: 100%;
+    align-items: center;
+}
+
+.section-2-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 36px 0px;
+}
+
+.section-2-cards {
+    display: flex;
+    gap: 48px;
+    text-align: center;
+}
+
+.card-container {
+    width: 150px;
+}
+
+.card {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    border: 3px solid #3882F6;
+    margin-bottom: 24px;
+}
